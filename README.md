@@ -1,5 +1,5 @@
 # Data-Structures-Library
-This is a refreshed version of my Data Structures Library project that I worked on in my CS 201 (Data Structures & Algorithms) class. This repository contains files for a Circular Dynamic Array, Red-Black Tree, Binary Heap, and Binomial Heap.
+This is a refreshed version of my Data Structures Library project that I worked on in my CS 201 (Data Structures & Algorithms) class. This repository contains files for a Circular Dynamic Array, Red-Black Tree, Binary Heap, and Binomial Heap. All of these Data Structures include additional methods for functionality.
 
 **Manually coding Data Structures for this project provided me with quite the challenge, however I feel that it was a valuable experience which allowed me to strengthen my programming skills and understanding of DSA. I managed a project average of 83.7%, but decided to challenge myself once again after a few months with this refresh!**
 
