@@ -225,7 +225,7 @@ class CircularDynamicArray {
     void addEnd(arraytype v) {
         // check if array needs resizing (increase array by double) before adding new element
         resizeArray(*this);
-        size++;
+        this->size++;
         // place new element at correct index.. this equation utilizing modulus ensures the correct index 
         // is chosen 
         if (reversed) {
@@ -239,7 +239,7 @@ class CircularDynamicArray {
     }
     void addFront(arraytype v) {
         resizeArray(*this);
-        size++;
+        this->size++;
         if (reversed) {
             this->front = (this->front + 1 + this->cap) % this->cap;
         }
@@ -251,7 +251,7 @@ class CircularDynamicArray {
     }
     void delEnd() {
         // update size after deletion before checking for the need to resize (decrease array by half)
-        size--;
+        this->size--;
         resizeArray(*this);
         if (reversed) {
             this->end = (this->end + 1 + this->cap) % this->cap;
@@ -261,7 +261,7 @@ class CircularDynamicArray {
         }
     }
     void delFront() {
-        size--;
+        this->size--;
         resizeArray(*this);
         if (reversed) {
             this->front = (this->front - 1 + this->cap) % this->cap;  
