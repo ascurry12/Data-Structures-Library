@@ -4,7 +4,7 @@ This is a refreshed version of my Data Structures Library project that I worked 
 **Manually coding Data Structures for this project provided me with quite the challenge, however I feel that it was a valuable experience which allowed me to strengthen my programming skills and understanding of DSA. I managed a project average of 83.7%, but decided to challenge myself once again after a few months with this refresh!**
 
 Circular Dynamic Array (CircularDynamicArray.cpp): <br />
-_Refresh update: decreased original code my half_
+_Refresh update: original code decreased by 48%_ <br />
 <br />
 The CDA is a data structure that consists of _two_ concepts: Circular Arrays and Dynamic Arrays. <br />
   Circular Array: An array in which the next element of the last element is the first element of the array. <br />
